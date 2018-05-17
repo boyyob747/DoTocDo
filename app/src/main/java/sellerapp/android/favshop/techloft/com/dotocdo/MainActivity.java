@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 progressDialog = new ProgressDialog(MainActivity.this);
                 progressDialog.setIndeterminate(true);
                 progressDialog.setCancelable(false);
-                progressDialog.setMessage("Getting location ...");
+                progressDialog.setMessage("Đang lấy địa chỉ ...");
                 progressDialog.show();
 
                 mBtnStart.setVisibility(View.GONE);

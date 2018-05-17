@@ -106,7 +106,7 @@ public class LocationService extends Service implements GoogleApiClient.Connecti
             MainActivity.endTime = System.currentTimeMillis();
             long diff = MainActivity.endTime - MainActivity.startTime;
             diff = TimeUnit.MICROSECONDS.toMinutes(diff);
-            MainActivity.mTxtTime.setText("Total time : " + diff + " minutes");
+            MainActivity.mTxtTime.setText("Tổng thời giản : " + diff + " minutes");
             MainActivity.mTxtDistance.setText(new DecimalFormat("#.###").format(distance)+ " Km/s");
             locationStart = locationEnd;
         }
